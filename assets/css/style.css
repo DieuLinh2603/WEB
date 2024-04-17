@@ -33,14 +33,18 @@ header{
     align-items: center;
     z-index: 99;
     background: #162938;
+    max-height: 100px;
 }
 
 /*-------------------------------------------------------------LOGO *-------------------------------------------------------------*/
-.logo{
-    font-size: 2rem;
+.logo a{
+    font-size: 2em;
     color: #fff;
     user-select: none;
     text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 /*-------------------------------------------------------------DESIGN THANH ĐIỀU HƯỚNG-------------------------------------------------------------*/
